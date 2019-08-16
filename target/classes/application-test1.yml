@@ -1,0 +1,45 @@
+spring:
+  jpa:
+    show-sql: false
+    database-platform: com.tomcatwang.blockchain.core.sqlite.config.SQLiteDialect
+    generate-ddl: true
+sqlite:
+  dbName:  D:/opensourcecode/blockchain/static/sqlite/block1.db
+  profiles:
+    active: ${ENV:test1}
+
+db:
+  levelDB: false    #在部分Windows机器上rocksDB会报错dll找不到，那么就用levelDB来替代
+  rocksDB: true
+singleNode: false  #如果是单节点测试，改成true
+version: 1
+name: ${NAME:test1}
+appId: ${APP_ID:test1}
+managerUrl: ${MANAGER_URL:http://localhost:8888/}
+publicKey: A8WLqHTjcT/FQ2IWhIePNShUEcdCzu5dG+XrQU8OMu54
+privateKey: yScdp6fNgUU+cRUTygvJG4EBhDKmOMRrK4XJ9mKVQJ8=
+rocksDBStorePath: ./rocksDBStore/rocksdbtest1
+peer:
+  server:
+    port: 6790
+#singeNode: true  #单节点测试模式
+
+server:
+  port: 1315
+  servlet:
+    context-path: /blockchain
+  #jetty配置，主要是acceptors和selectors
+  jetty:
+    acceptors: 2
+    selectors: 4
+  #tomcat的配置可以保留，切换回来可用，反正不会生效
+  tomcat:
+    remote-ip-header: x-forward-for
+    uri-encoding: UTF-8
+    max-threads: 2000
+    #background-processor-delay: 30
+    max-http-header-size: 8096
+    basedir: ${user.home}/tomcat/tmp
+    max-connections: 5000
+    max-http-post-size: 10000000
+  connection-timeout: 600000

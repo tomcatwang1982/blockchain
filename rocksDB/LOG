@@ -1,0 +1,84 @@
+2019/08/15-19:38:24.805968 32f4 RocksDB version: 5.18.3
+2019/08/15-19:38:24.806032 32f4 Git sha rocksdb_build_git_sha:@641fae60f63619ed5d0c9d9e4c4ea5a0ffa3e253@
+2019/08/15-19:38:24.806048 32f4 Compile date Apr 21 2019
+2019/08/15-19:38:24.806068 32f4 DB SUMMARY
+2019/08/15-19:38:24.806210 32f4 CURRENT file:  CURRENT
+2019/08/15-19:38:24.806225 32f4 IDENTITY file:  IDENTITY
+2019/08/15-19:38:24.806245 32f4 MANIFEST file:  MANIFEST-000059 size: 59 Bytes
+2019/08/15-19:38:24.806257 32f4 SST files in ./rocksDB dir, Total Num: 0, files: 
+2019/08/15-19:38:24.806268 32f4 Write Ahead Log file in ./rocksDB: 000060.log size: 0 ; 
+2019/08/15-19:38:24.806280 32f4                         Options.error_if_exists: 0
+2019/08/15-19:38:24.806297 32f4                       Options.create_if_missing: 1
+2019/08/15-19:38:24.806668 32f4                         Options.paranoid_checks: 1
+2019/08/15-19:38:24.806677 32f4                                     Options.env: 0000000000F67040
+2019/08/15-19:38:24.806683 32f4                                Options.info_log: 0000000000FCFF30
+2019/08/15-19:38:24.806687 32f4                Options.max_file_opening_threads: 16
+2019/08/15-19:38:24.806692 32f4                              Options.statistics: 0000000000000000
+2019/08/15-19:38:24.806696 32f4                               Options.use_fsync: 0
+2019/08/15-19:38:24.806701 32f4                       Options.max_log_file_size: 0
+2019/08/15-19:38:24.806706 32f4                  Options.max_manifest_file_size: 1073741824
+2019/08/15-19:38:24.806710 32f4                   Options.log_file_time_to_roll: 0
+2019/08/15-19:38:24.806715 32f4                       Options.keep_log_file_num: 1000
+2019/08/15-19:38:24.806719 32f4                    Options.recycle_log_file_num: 0
+2019/08/15-19:38:24.806724 32f4                         Options.allow_fallocate: 1
+2019/08/15-19:38:24.806728 32f4                        Options.allow_mmap_reads: 0
+2019/08/15-19:38:24.806732 32f4                       Options.allow_mmap_writes: 0
+2019/08/15-19:38:24.806737 32f4                        Options.use_direct_reads: 0
+2019/08/15-19:38:24.806741 32f4                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/08/15-19:38:24.806745 32f4          Options.create_missing_column_families: 0
+2019/08/15-19:38:24.806750 32f4                              Options.db_log_dir: 
+2019/08/15-19:38:24.806754 32f4                                 Options.wal_dir: ./rocksDB
+2019/08/15-19:38:24.806759 32f4                Options.table_cache_numshardbits: 6
+2019/08/15-19:38:24.806763 32f4                      Options.max_subcompactions: 1
+2019/08/15-19:38:24.806767 32f4                  Options.max_background_flushes: -1
+2019/08/15-19:38:24.806772 32f4                         Options.WAL_ttl_seconds: 0
+2019/08/15-19:38:24.806776 32f4                       Options.WAL_size_limit_MB: 0
+2019/08/15-19:38:24.806780 32f4             Options.manifest_preallocation_size: 4194304
+2019/08/15-19:38:24.806785 32f4                     Options.is_fd_close_on_exec: 1
+2019/08/15-19:38:24.806789 32f4                   Options.advise_random_on_open: 1
+2019/08/15-19:38:24.806794 32f4                    Options.db_write_buffer_size: 0
+2019/08/15-19:38:24.806798 32f4                    Options.write_buffer_manager: 0000000000FC31E0
+2019/08/15-19:38:24.806802 32f4         Options.access_hint_on_compaction_start: 1
+2019/08/15-19:38:24.806807 32f4  Options.new_table_reader_for_compaction_inputs: 0
+2019/08/15-19:38:24.806811 32f4           Options.random_access_max_buffer_size: 1048576
+2019/08/15-19:38:24.806816 32f4                      Options.use_adaptive_mutex: 0
+2019/08/15-19:38:24.806820 32f4                            Options.rate_limiter: 0000000000000000
+2019/08/15-19:38:24.806825 32f4     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/08/15-19:38:24.806829 32f4                       Options.wal_recovery_mode: 2
+2019/08/15-19:38:24.806834 32f4                  Options.enable_thread_tracking: 0
+2019/08/15-19:38:24.806839 32f4                  Options.enable_pipelined_write: 0
+2019/08/15-19:38:24.806844 32f4         Options.allow_concurrent_memtable_write: 1
+2019/08/15-19:38:24.806870 32f4      Options.enable_write_thread_adaptive_yield: 1
+2019/08/15-19:38:24.806876 32f4             Options.write_thread_max_yield_usec: 100
+2019/08/15-19:38:24.806880 32f4            Options.write_thread_slow_yield_usec: 3
+2019/08/15-19:38:24.806885 32f4                               Options.row_cache: None
+2019/08/15-19:38:24.806889 32f4                              Options.wal_filter: None
+2019/08/15-19:38:24.806893 32f4             Options.avoid_flush_during_recovery: 0
+2019/08/15-19:38:24.806898 32f4             Options.allow_ingest_behind: 0
+2019/08/15-19:38:24.806902 32f4             Options.preserve_deletes: 0
+2019/08/15-19:38:24.806906 32f4             Options.two_write_queues: 0
+2019/08/15-19:38:24.806911 32f4             Options.manual_wal_flush: 0
+2019/08/15-19:38:24.806915 32f4             Options.max_background_jobs: 2
+2019/08/15-19:38:24.806919 32f4             Options.max_background_compactions: -1
+2019/08/15-19:38:24.806923 32f4             Options.avoid_flush_during_shutdown: 0
+2019/08/15-19:38:24.806928 32f4           Options.writable_file_max_buffer_size: 1048576
+2019/08/15-19:38:24.806932 32f4             Options.delayed_write_rate : 16777216
+2019/08/15-19:38:24.806936 32f4             Options.max_total_wal_size: 0
+2019/08/15-19:38:24.806941 32f4             Options.delete_obsolete_files_period_micros: 21600000000
+2019/08/15-19:38:24.806945 32f4                   Options.stats_dump_period_sec: 600
+2019/08/15-19:38:24.806950 32f4                          Options.max_open_files: -1
+2019/08/15-19:38:24.806954 32f4                          Options.bytes_per_sync: 0
+2019/08/15-19:38:24.806958 32f4                      Options.wal_bytes_per_sync: 0
+2019/08/15-19:38:24.806963 32f4       Options.compaction_readahead_size: 0
+2019/08/15-19:38:24.806967 32f4 Compression algorithms supported:
+2019/08/15-19:38:24.806972 32f4 	kZSTD supported: 1
+2019/08/15-19:38:24.806976 32f4 	kSnappyCompression supported: 1
+2019/08/15-19:38:24.806981 32f4 	kBZip2Compression supported: 0
+2019/08/15-19:38:24.806985 32f4 	kZlibCompression supported: 1
+2019/08/15-19:38:24.806989 32f4 	kLZ4Compression supported: 1
+2019/08/15-19:38:24.806993 32f4 	kXpressCompression supported: 0
+2019/08/15-19:38:24.806997 32f4 	kLZ4HCCompression supported: 1
+2019/08/15-19:38:24.807001 32f4 	kZSTDNotFinalCompression supported: 1
+2019/08/15-19:38:24.807015 32f4 Fast CRC32 supported: Supported on x86
+2019/08/15-19:38:24.807200 32f4 [db\db_impl.cc:388] Shutdown: canceling all background work
+2019/08/15-19:38:24.807247 32f4 [db\db_impl.cc:562] Shutdown complete
